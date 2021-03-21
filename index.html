@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+       <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+           
+           <script>
+           
+           
+           $(function(){
+    $(".ham").click(function() {
+        $("#submenu").slideToggle(500);
+    });
+}); 
+
+    
+           
+       </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    
+    
+    <style>
+        
+        
+        body{
+   margin:0;
+   background-color:black;
+}
+
+.ham{
+    border-radius:10px;
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    outline:none;
+    background-color:white;
+    margin:10px;
+    position:relative;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.ham:hover{
+    background-color:#eee;
+}
+
+.ham:active{
+    background-color:red;
+}
+
+#img{
+    margin-top:70px;
+    padding-left:150px;
+
+}
+
+#h1{
+    float:right;
+    padding-right:120px;
+    color:white;
+    font-family:'Averia Serif Libre', cursive;
+    font-size:16px;
+}
+
+#fck{
+    text-align:center;
+    color:red;
+    font-family: 'Syne Mono', monospace;
+}
+
+h3{
+    color:red;
+    text-align:center;
+}
+
+
+p{
+    font-family: 'Syne Mono', monospace;
+    color:grey;
+    text-indent:15px;
+}
+
+
+footer{
+    color:white;
+    position:bottom;
+    padding-bottom:0;
+    text-align:center;
+    font-family:'Syne Mono', monospace;
+}
+
+
+
+#submenu{
+    display:none;
+    position:absolute;
+    background-color:black;
+    min-width:100px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+#submenu a{
+    color:grey;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    font-size:16px;
+    font-weight:bold;
+    font-family:'Syne;e Mono', monospace;
+}
+#submenu a:hover{
+    background-color:white;
+    border-radius:20px;
+}
+
+nav, .topnav{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+
+        
+        
+        
+        
+    </style>
+    
+        <title>Page Title</title>
+    </head>
+    <body>
+    
+    <span id="h1"><h1>  👽Vedblog </h1></span>
+    
+    
+    <nav class="topnav">
+    
+        <button class="ham">
+         <svg viewBox="0 0 100 80" width="30" height="30"> 
+         <rect y="10" x="15" width="70" height="10" rx="8"></rect>
+             
+         <rect y="40" x="15" width="70" height="10" rx="8"></rect> 
+         
+         <rect y="70" x="15" width="70" height="10" rx="8"></rect> 
+         </svg>          
+        
+        </button>
+         
+        <div id="submenu">
+        
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        
+      </div>
+        
+        
+    </nav>
+    
+    
+    <img src="https://pixabay.com/get/g41510c6dd5fe268886a0ec44428ce2d25c428acc63a00ddad60cfde2e052c0098462e8f23ad4a688ab8b1e16c6b36538_1280.png" width="70px" height="70px" id="img"/><span id="fck"><marquee>Fuck The System</marquee></span>
+    <br><br>
+    
+    
+    <h3> Python Virtual Environment </h1>
+    
+    <p> 
+    
+       virtual Environment is an isolated python environment, to work with python project and deal with dependencies.
+    </p>
+    
+    
+    <h3> Social Engineering </h3>
+    
+    <p>
+        
+        Social Engineering is a form of hacking which is performed without computer, it is the act of exploiting human stupidity.
+        
+    </p>
+    
+    
+    <br></br></br></br></br><br><br><br><br>
+    
+    
+    <footer>
+        
+        Copyright&copy2021</br></br>
+    
+        
+    </footer>
+    </body>
+</html>
